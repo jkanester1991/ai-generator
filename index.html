@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI-Generator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -15,12 +17,12 @@
           <input
             type="text"
             class="prompt"
-            id=""
-            placeholder="Enter the topic of the poem"
+            id="user-prompt"
+            placeholder="Enter a poem topic here.."
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem" id="poem"></div>
+        <div class="poem" id="poem">Your AI generated poem will be here</div>
       </main>
       <footer>
         This project was coded by Jenn Kanester and is open-sourced on
