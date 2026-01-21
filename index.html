@@ -10,19 +10,23 @@
   </head>
   <body>
     <div class="container">
-      <header><h1>AI Poem Generator</h1></header>
+      <header><h1>AI Poem Generator 👋</h1></header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            class="prompt"
-            id="user-prompt"
-            placeholder="Enter a poem topic here.."
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem">Your AI generated poem will be here</div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              class="prompt"
+              id="user-prompt"
+              placeholder="Enter a poem topic here.."
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">ie. mountains, love, boredom, etc.</div>
+        </div>
+
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This project was coded by Jenn Kanester and is open-sourced on

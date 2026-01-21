@@ -31,13 +31,24 @@ main {
   margin-bottom: 80px;
 }
 
-form {
+.form-container {
   padding: 30px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(209, 209, 209, 0.7);
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-left: 8px;
+  opacity: 0.6;
 }
 
 .prompt {
@@ -77,6 +88,10 @@ form {
 
 .poem em {
   color: rgb(0, 0, 255);
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
