@@ -1,3 +1,76 @@
 body {
+  background-color: rgb(209, 233, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: blue;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  /* border: 1px dashed grey; */
+  background-color: rgb(209, 233, 255);
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
   text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 1.5;
+  color: rgb(15, 15, 71);
+}
+
+main {
+  margin-bottom: 80px;
+}
+
+form {
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: 0px 20px 60px rgba(209, 209, 209, 0.7);
+}
+
+.prompt {
+  padding: 16px;
+  border: 1px solid grey;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+
+.prompt:focus {
+  border: 3px solid rgb(0, 0, 255, 0.4);
+  outline: none;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 24px;
+  width: 100px;
+  font-size: 16px;
+}
+
+.poem {
+  font-size: 16px;
+  font-family: monospace;
+  background-color: white;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid blue;
+  box-shadow: 0px 20px 60px rgba(209, 209, 209, 0.7);
 }
